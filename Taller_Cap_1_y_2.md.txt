@@ -32,13 +32,24 @@
 
 4. Describir los factores que afectan la calidad de las comunicaciones.
 	R/ existen factores externos e internos que pueden afectar la calida de la comunicacion
-	los factores externos que afectan la calidad de la comunicacion se les relaciona con la complejidad que tenga la red y la cantidad de dispositivos por los que el mensaje debera
+	los factores externos que afectan la calidad de la comunicacion se les relaciona con la complejidad que tenga la red y la cantidad de dispositivos por los que	      el mensaje debera
 	pasar ante de llegar al destino.Algunos de los estos factores externos son:
 	la cantidad de mensajes que se envien o transmitan de forma  simultanea por la red, o las veces que el mensaje sea redireccionado,
 	influye tambien la calidad de la ruta entre el emisor y el receptor, la cantidad de veces que el mensaje cambia de forma
 
 	Por otro lado los factores internos que afectan la calidad de las comunicaciones son:
-	el tamaño, complejidad o nivel de importancia del mensaje que se va a enviar, pues si un mensaje es demasiado grande probablemente se demore demasiado en llegar al destino
-	o por fallas en la red sea interrumpido, mientras que un mensaje con poca o baja importancia puede que se pierda en la red si esta tiene una una sobrecarga, dado 
+	el tamaño, complejidad o nivel de importancia del mensaje que se va a enviar, pues si un mensaje es demasiado grande probablemente se demore demasiado en 	  llegar al destino
+	o por fallas en la red sea interrumpido, mientras que un mensaje con poca o baja importancia puede que se pierda en la red si esta tiene una una sobrecarga, 	     dado 
 	a que enviara primero los de mayor importancia
+	
+	
+6. Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
+	R/ un datos se puede describir como una unidad basica de informacion que se trasmite atraves de la red
+	Por otro lado una red de datos nos permitira trabajar en otros dispositivos como si estuvieramos en nuestro propio computador
+	nos dara acceso a todas las herramientas que esten disponibles en la red.Podria decirse que es una interconexion de computadoras y algunos otros dispositivos 	      que comparten los recursos
+
+	se sabe que antes ya sea telefono,television o ya sea radio tenian una version individual de la red y cada una usaba su propio conjunto de reglas.Lo que se 	    logra
+	con las redes convergentes es consolidaron o unificar las redes anteriormente mencionadas evitando tener redes separadas, cabe resaltar que aun en estas redes 	       convergentes
+	existen muchos puntos de contacto y dispositivos especializados
+
 	
