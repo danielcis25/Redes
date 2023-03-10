@@ -30,5 +30,17 @@ su relación con el término Daemon.
 Dado que tanto Telnet como SSH son unos protocolos de red que son usados para acceder a servidores de dispositivos remotos. La diferencia entre estos 2 protocolos primeramente es que a diferencia de SSH, Telnet es un protocolo antiguo, además Telnet es considerado un protocolo inseguro, pues aunque proporciona autenticación de usuario no admite el transporte de datos encriptados, durante la sesión, con Telnet los datos se transportan por la red como texto(sin formato) por lo que puede ser interceptados y entendidos fácilmente  por alguien que esté escuchando en la misma red. Mientras que SSH es un protocolo relativamente nuevo o moderno y si cuenta con cifrado de extremo a extremo y proporciona mayor autenticación de usuario que Telnet, lo que hace que sea un protocolo más seguro, se puede ver como que SSH es una version mejorada de Telnet.
 
 
+--------------------------
+Capitulo 4                |
+--------------------------
+1. Describir las funciones de la capa de Transporte.
+Está capa es encargada de permitir la segmentación de datos  y se encarga de brindar el control necesario para reensamblar las partes dentro de los diferentes streams de la comunicación, la principales funciones de la capa de transporte son:
+El seguimiento de conversaciones individuales: ya que el host puede que tenga más de una aplicación en comunicación por la red, por lo que está capa de transporte se encarga de mantener la comunicación únicamente entre las aplicaciones involucradas, es decir que si no se le da autorización aunque otra aplicación se esté comunicando con el host no debería poder acceder a la comunicación que se tiene entre 2 o más aplicaciones
+La segmentación de datos: pues los datos deben ser preparados para ser enviados, por lo que se segmentan para que sean enviados en partes manejables, en está capa se incluye el encapsulamiento necesario en cada sección de los datos, se les agrega un encabezado para saber a cual comunicación está asociados dichos datos 
+Reensamble de segmentos: dado a que la información pudo haber sido segmentada, la capa de transporte describe cómo se va a utilizar la información de los encabezados de dicha capa para poder hacer una reconstrucción o reensamble de los datos, y después ser enviados correctamente a la capa de aplicación
+Identificación de las aplicaciones: para transferir adecuadamente los stream de datos a la aplicación correspondiente o adecuada, la capa de transporte se encargará de identificar el destino ,esto lo hará asignando un identificador a la aplicación, lo que en el protocolo TCP/IP se le conoce como número de puerto, dicho número de puerto es utilizado en el encabezado de la capa de transporte lo que permite identificar cual es la aplicación asociada cada sección de datos. Y es que la capa de transporte es la que enlaza la capa de aplicación con las capas inferiores
+
+
+
 
 
