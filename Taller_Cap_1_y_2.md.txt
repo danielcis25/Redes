@@ -107,6 +107,7 @@ CAPITULO 1                          |
 ------------------------------------
 CAPITULO 2                          |
 ------------------------------------
+
 1. Describir la estructura de una red, incluidos los dispositivos, medios y  servicios necesarios para lograr comunicaciones exitosas.
 	R/la estructura de una red se compone de: 
 	Dispositivos: que son los elementos físicos que se utilizan para conectarse a la red y permitir la comunicación entre ellos
