@@ -154,7 +154,8 @@ CAPITULO 2                          |
 6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 	R/
 	Es una unidad de datos que se utiliza para intercambiar información entre dos capas adyacentes en la pila de protocolos. Cada capa agrega su propio encabezado
-	a la PDU recibida de la capa inferior y la envía a la capa superior como una nueva PDU.
+	a la PDU recibida de la capa inferior y la envía a la capa superior como una nueva PDU. También se conoce como paquete y se utiliza para transmitir datos entre
+	dispositivos en redes de mayor alcance, como la Internet. Los paquetes incluyen un encabezado que contiene información de dirección y control.
 
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento
  de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
