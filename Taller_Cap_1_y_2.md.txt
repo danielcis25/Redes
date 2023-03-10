@@ -59,4 +59,13 @@
 	con las redes convergentes se consolidaron o unificar las redes anteriormente mencionadas evitando tener redes separadas,se podria decir que es una red que transporta diferente tipo de trafico de datos,cabe resaltar que aun en estas redes convergentes
 	existen muchos puntos de contacto y dispositivos especializados
 
+8. Investigar qué son las redes orientadas y no orientadas a la conexión.
+	R/ En las redes orientadas a la conexion hace referencia a una red informatica que utiliza en protocolo de comunicacion entre
+	2 dispositivos antes de que se inicie a transmitir archivos, En esta red los dispositivos primero se conectan y luego hacen el envio o recepcion de datos
+	este tipo de red garantiza confiabilidad y los datos llegaran sin errores. Un ejempo de esta red es el protocolo TCP
+
+	Por otro lado en las redes no orientadas a la conexion los dispositivos no establecen la conexion antes de realizar la transmision de datos
+	en este tipo de red los dispositivos hacen la transmision de datos sin importar si se establece la conexion
+	cada paquete de datos es enviado individualmente por la red lo que implica que puedan llegar en desorden al destino,ademas de que en esta red no existe la garantia de que llegue el mensaje completo
+	un ejemplo de esta red es el protocolo UDP
 	
