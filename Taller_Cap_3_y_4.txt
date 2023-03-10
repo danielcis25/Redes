@@ -19,6 +19,13 @@ respectiva función y/o propósito.
 su relación con el término Daemon.
 	*IMAGEN ADJUNTA EN PDF
 	El daemon es un servicio del servidor que escucha la solicitud o petición del cliente, e intercambia los mensajes adecuados con el cliente,según lo requerido por 	el protocolo, y da respuesta a lo solicitado por el cliente, generalmente este servicio se ejecuta en segundo plano
+	
+5. Explicar, con sus palabras, los procesos y protocolos de envío y recepción de un e- mail.
+
+	el e-mail utiliza los protocolos SMTP Y POP. El cliente envía email al servidor mediante el protocolo SMTP y recibe los email mediante el protocolo POP 
+	el cliente de correo electrónico denominado MUA permite enviar los mensajes y los coloca en el buzón del cliente, los procesos del servidor de e-mail son MTA y 	MDA, donde el servidor de e-mail ejecuta los dos procesos de forma individual, el MTA es el agente de transferencia de correo y el MDA es el agente de entrega 	de correo
+	el MTA es usado para enviar los correos que recibe el mensaje desde el MUA, en caso de que el correo sea dirigido a un usuario para el cual su buzón esté en el		 servidor local, dicho correo pasara directo al MDA de lo contrario el MTA enruta el mensaje al servidor correspondiente
+
 
 
 
