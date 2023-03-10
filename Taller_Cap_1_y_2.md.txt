@@ -4,6 +4,16 @@
 	ademas de no limitarnos el alcance de nuestras comunicacione y un gran avance es que
 	podemos agregar contenido multimedia a dicha comunicacion.
 
+2. Listar las actividades cotidianas que realiza usted utilizando internet.
+	R/
+	- Acceso a redes sociales.
+	- Descarga de archivos.
+	- Acceso a correo electrónico.
+	- Comunicación a traves de aplicaciones de mensajería, por ejemplo: Whatsapp, Messenger.
+	- Visita de páginas web para consultas académicas.
+	- Consulta de catálogo Bibliotecario.
+	- Videollamadas para sesiones de estudio.
+
 4. Describir los factores que afectan la calidad de las comunicaciones.
 	R/ existen factores externos e internos que pueden afectar la calida de la comunicacion
 	los factores externos que afectan la calidad de la comunicacion se les relaciona con la complejidad que tenga la red y la cantidad de dispositivos por los que el mensaje debera
