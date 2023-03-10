@@ -164,6 +164,12 @@ CAPITULO 2                          |
 	La tecnica de encapsulamiento de datos es un procesos donde se agrega informacion(cabecera y pie de pagina)a los datos originales
 	de la capa superior antes de ser enviados a la capa inferior.En cada capa del modelo TCP/IP los datos se encapsulan en el protocolo de unidad de datos conocido como PDU
 	el encapsulamiento se utiliza para entregar y gestionar los datos en la red
+
+8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+	R/
+	Un modelo de protocolo se enfoca en las reglas y procedimientos específicos que se utilizan para transmitir información entre dispositivos en una red,
+	mientras que un modelo de referencia se enfoca en la organización general de los componentes de la red y en cómo se deben dividir las tareas de
+	comunicación en diferentes capas.
 	
 9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
  la capa OSI tiene las siguiente capas 
