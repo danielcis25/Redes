@@ -27,8 +27,7 @@ su relación con el término Daemon.
 	el MTA es usado para enviar los correos que recibe el mensaje desde el MUA, en caso de que el correo sea dirigido a un usuario para el cual su buzón esté en el		 servidor local, dicho correo pasara directo al MDA de lo contrario el MTA enruta el mensaje al servidor correspondiente
 	
 7. Investigar y explicar la diferencia entre Telnet y SSH
-Dado que tanto Telnet como SSH son unos protocolos de red que son usados para acceder a servidores de dispositivos remotos. La diferencia entre estos 2 protocolos primeramente es que a diferencia de SSH, Telnet es un protocolo antiguo, además Telnet es considerado un protocolo inseguro, pues no proporciona ni autenticación de usuario ni cifrado por lo que la información que se transmita por la red haciendo uso de Telnet puede ser interceptada por alguien que esté escuchando en la misma red, mientras que SSH es un protocolo relativamente nuevo o moderno y si cuenta con cifrado de extremo a extremo y autenticación de usuario lo que hace que sea un protocolo seguro, se puede ver como que SSH es una version mejorada de Telnet.
-
+Dado que tanto Telnet como SSH son unos protocolos de red que son usados para acceder a servidores de dispositivos remotos. La diferencia entre estos 2 protocolos primeramente es que a diferencia de SSH, Telnet es un protocolo antiguo, además Telnet es considerado un protocolo inseguro, pues aunque proporciona autenticación de usuario no admite el transporte de datos encriptados, durante la sesión, con Telnet los datos se transportan por la red como texto(sin formato) por lo que puede ser interceptados y entendidos fácilmente  por alguien que esté escuchando en la misma red. Mientras que SSH es un protocolo relativamente nuevo o moderno y si cuenta con cifrado de extremo a extremo y proporciona mayor autenticación de usuario que Telnet, lo que hace que sea un protocolo más seguro, se puede ver como que SSH es una version mejorada de Telnet.
 
 
 
