@@ -1,7 +1,13 @@
 ------------------------------------
 CAPITULO 3                          |
 ------------------------------------
+1. Describir las funciones de las tres capas superiores del modelo OSI y como estas proporcionan servicios de red a las aplicaciones de usuario final.
+	 -Capa superior(7) capa de aplicación: En está capa van los datos, nos proporciona una interfaz entre aplicaciones que utilizaremos para comunicarnos con la red 	en la cual se transmiten mensajes, en resumen podríamos decir que está capa nos proporciona una interfaz para conectarnos a la red.
 
+	-capa de presentación: en esta capa se hace la codificación y la conversión de los datos de la capa 7 garantizando que los datos del dispositivo de origen puedan 	ser comprendidos en el dispositivo final, en está capa se codifica y se hace la conversión de datos( si es para el transmisor) o se descodifican para el receptor
+
+	-capa de sesión: la función de está capa es crear y mantener dialogos entre la aplicación de origen y destino, ya sea para mantener,reiniciar o inactivar la 		sesion despues de un periodo de tiempo
+	
 2. Dentro de la capa de Aplicación, existen dos formas de procesos o programas de software que proporcionan acceso a la red: aplicaciones y servicios. Describir su
 respectiva función y/o propósito.
   	R/
