@@ -3,3 +3,16 @@
 	sociales,comerciales o bien sea personales
 	ademas de no limitarnos el alcance de nuestras comunicacione y un gran avance es que
 	podemos agregar contenido multimedia a dicha comunicacion.
+
+4. Describir los factores que afectan la calidad de las comunicaciones.
+	R/ existen factores externos e internos que pueden afectar la calida de la comunicacion
+	los factores externos que afectan la calidad de la comunicacion se les relaciona con la complejidad que tenga la red y la cantidad de dispositivos por los que el mensaje debera
+	pasar ante de llegar al destino.Algunos de los estos factores externos son:
+	la cantidad de mensajes que se envien o transmitan de forma  simultanea por la red, o las veces que el mensaje sea redireccionado,
+	influye tambien la calidad de la ruta entre el emisor y el receptor, la cantidad de veces que el mensaje cambia de forma
+
+	Por otro lado los factores internos que afectan la calidad de las comunicaciones son:
+	el tamaño, complejidad o nivel de importancia del mensaje que se va a enviar, pues si un mensaje es demasiado grande probablemente se demore demasiado en llegar al destino
+	o por fallas en la red sea interrumpido, mientras que un mensaje con poca o baja importancia puede que se pierda en la red si esta tiene una una sobrecarga, dado 
+	a que enviara primero los de mayor importancia
+	
