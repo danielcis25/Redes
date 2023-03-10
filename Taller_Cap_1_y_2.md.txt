@@ -108,6 +108,26 @@ CAPITULO 1                          |
 CAPITULO 2                          |
 ------------------------------------
 
+2. Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
+	R/
+	RED: Este termino es utilizado para especificar algún tipo de interconexión de dispositivos, los cuales comparten recursos y lo más
+	     importante que es la transferencia de datos, ya sea para comunicaciones o simplemente una red de computadoras.
+
+	LAN: La red de área local es usada para cubrir una única área geográfica, por ejemplo una facultad de la universidad, una empresa, estructura
+	     organizacional común. Estas se usan para distribuir recursos tales como los archivos o las conexiones a internet.
+	
+	WAN: Esta red conecta las redes LAN en ubicaciones separadas geograficamente. Las organizaciones individuales contratan las conexiones a través de una red
+             de proveedores de servicios. Se utilizan principalmente para la comunicación o para proveer de acceso a internet.
+
+	INTERNETWORK: Es un conjunto de redes interconectadas(LAN o WAN). Pueden pertenecer a organizaciones públicas o privadas.
+	              La internetwork más conocida y popular es Internet.
+
+	INTERNET: Es una interconexión de redes global la cual conecta diferentes redes de ordenadores juntas, utilizando el
+		  protocolo TCP/IP, además de ser una red pública.
+	
+	Red es un concepto genérico que se refiere a cualquier tipo de interconexión de dispositivos, lan y wan son redes de área,
+	internetwork es la interconexión de redes e internet es la red global más popular.
+
 3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
 	R/ La principla diferencia es el tamaño de la red, Interwork hace referencia a una red especifica mientras que internet es una red mas global
 	interwork se puede describir como una red formada por 2 o mas redes interconectadas e internet como se menciono anteriormente es una red global
