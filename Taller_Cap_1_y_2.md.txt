@@ -108,3 +108,23 @@ CAPITULO 2                          |
 	La tecnica de encapsulamiento de datos es un procesos donde se agrega informacion(cabecera y pie de pagina)a los datos originales
 	de la capa superior antes de ser enviados a la capa inferior.En cada capa del modelo TCP/IP los datos se encapsulan en el protocolo de unidad de datos conocido como PDU
 	el encapsulamiento se utiliza para entregar y gestionar los datos en la red
+	
+9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+ la capa OSI tiene las siguiente capas 
+7. capa de aplicación: en está capa van los datos, es la capa que  proporciona una interfaz para conectarse a la red
+6.capa de presentación: codifica y hace la conversión de datos(si es para el 	transmisor codifica,mientras que si es para el receptor decodifica)
+5.capa de sesión: crea y mantiene diálogos entre las aplicaciones de origen y destino
+4. transporte: en esta capa se garantiza que los datos o  paquetes lleguen correctamente al destino es decir en secuencia y sin errores
+3. Red: Es la capa encargada de enrutar los paquetes desde el origen hasta el destino a través de la red
+2. enlace de datos: la función de está capa es garantizar la fiabilidad de transmisión dentro del circuito de transmisión de los datos.
+1.capa física: en está capa se toma la información de señales  físicas que pueden ser captadas por los periféricos de la computadora, para ser convertida en datos y poder transmitirlas por un medio
+
+en el modelo TCP tiene 5 capas 
+-Aplicación 
+-Transporte 
+-Internet
+-Acceso a red
+es un modelo un poco más compacto que el OSI, y se puede decir que las capas 7,6,5 del modelos OSI están encapsuladas o cumplen una función bastante similar que la de la capa de aplicación del modelo TCP, 
+la capa de transporte es similar en ambos modelos, la capa internet del TCP es similar a la capa red del modelo OSI
+y las capas 1 y 2 del modelo OSI están encapsuladas en la capa acceso a red del modelo TCP  
+
