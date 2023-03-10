@@ -132,6 +132,12 @@ CAPITULO 2                          |
 	R/ La principla diferencia es el tamaño de la red, Interwork hace referencia a una red especifica mientras que internet es una red mas global
 	interwork se puede describir como una red formada por 2 o mas redes interconectadas e internet como se menciono anteriormente es una red global
 	la cual se comunica haciendo uso del protocolo TCP/IP al ser global permite que puedea haber comunicacion entre diferentes dispositivos del mundo 
+
+4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+	R/
+	Se entiende por tarjeta de interfaz de red (NIC) como el dispositivo hardware que se conecta a la placa madre de un equipo, el cuál nos permite la conexión
+	a una red; eL puerto físico es un conector físico en el dispositivo de red el cual va a permitir la conexión a un cable de red; por último, la interfaz
+	de red hace referencia al software que va a permitir que el dispositivo se conecte y se comunique con la red.
 	
 5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
 	R/ esto se debe a que los protocolos son estandares por lo que no depende de que tecnologia se use
