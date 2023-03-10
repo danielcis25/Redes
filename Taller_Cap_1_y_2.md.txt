@@ -41,6 +41,13 @@
 	el tamaño, complejidad o nivel de importancia del mensaje que se va a enviar, pues si un mensaje es demasiado grande probablemente se demore demasiado en 	  llegar al destino
 	o por fallas en la red sea interrumpido, mientras que un mensaje con poca o baja importancia puede que se pierda en la red si esta tiene una una sobrecarga, 	     dado 
 	a que enviara primero los de mayor importancia
+
+5. Identificar los componentes clave de cualquier red de datos y describir su funcionamiento.
+	R/
+   	- Dispositivos: Estos son los equipos físicos necesarios para que exista la interacción y comunicación del hardware dentro de una red.
+	- Medio: Es a través del cual se realiza o viaja la conexión a internet, por ejemplo: la atmósfera, cobre, fibra óptica.
+	- Reglas: Son las normas o protocolos que especifican la manera en que se envían los mensajes, además del redireccionamiento e interpretación en los dispositivos finales.
+	- Mensaje: Son los paquetes que se envian a través de internet hacia un dispositivo final, estos pueden ser: texto, video, voz o datos informáticos.
 	
 	
 6. Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
