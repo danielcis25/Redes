@@ -109,6 +109,10 @@ CAPITULO 2                          |
 	interwork se puede describir como una red formada por 2 o mas redes interconectadas e internet como se menciono anteriormente es una red global
 	la cual se comunica haciendo uso del protocolo TCP/IP al ser global permite que puedea haber comunicacion entre diferentes dispositivos del mundo 
 	
+5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
+	R/ esto se debe a que los protocolos son estandares por lo que no depende de que tecnologia se use
+	se puede decir que es la tecnologia la que debe adaptarse a los estandares del protocolo
+
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento
  de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
 	R/se puede decir que los protocolos son un conjunto de reglas y estandares para la comunicacion entre los dispositivos de un sistema en red
