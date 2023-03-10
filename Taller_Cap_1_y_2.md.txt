@@ -44,12 +44,12 @@
 	
 	
 6. Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
-	R/ un datos se puede describir como una unidad basica de informacion que se trasmite atraves de la red
+	R/ un datos se puede describir como una unidad digital basica de informacion que se trasmite atraves de la red
 	Por otro lado una red de datos nos permitira trabajar en otros dispositivos como si estuvieramos en nuestro propio computador
-	nos dara acceso a todas las herramientas que esten disponibles en la red.Podria decirse que es una interconexion de computadoras y algunos otros dispositivos 	      que comparten los recursos
+	nos dara acceso a todas las herramientas que esten disponibles en la red.Podria decirse que es una interconexion de computadoras y algunos otros dispositivos 	      que comparten los recursos ya sean servidores,impresoras etc
 
 	se sabe que antes ya sea telefono,television o ya sea radio tenian una version individual de la red y cada una usaba su propio conjunto de reglas.Lo que se 	    logra
-	con las redes convergentes es consolidaron o unificar las redes anteriormente mencionadas evitando tener redes separadas, cabe resaltar que aun en estas redes 	       convergentes
+	con las redes convergentes se consolidaron o unificar las redes anteriormente mencionadas evitando tener redes separadas,se podria decir que es una red que transporta diferente tipo de trafico de datos,cabe resaltar que aun en estas redes convergentes
 	existen muchos puntos de contacto y dispositivos especializados
 
 	
