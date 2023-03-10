@@ -59,6 +59,21 @@
 	con las redes convergentes se consolidaron o unificar las redes anteriormente mencionadas evitando tener redes separadas,se podria decir que es una red que transporta diferente tipo de trafico de datos,cabe resaltar que aun en estas redes convergentes
 	existen muchos puntos de contacto y dispositivos especializados
 
+7. Describir las características de las arquitecturas de red: tolerante a fallas, escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos.
+	R/
+	Tolerante a fallas: Una red tolerante a fallos es aquella que al suceder una falla ya sea de software o de Hardware, está puede recuperarse
+                            rapidamente, existiendo varias rutas o enlaces diferentes que redireccionan el mensaje existiendo así disponibilidad para
+                            el usuario. Por ejemplo, si al enviarse un mensaje este no puede seguir su ruta y debe inmediatamente enrutarse para poder
+                            llegar a su destino.
+	Escalabilidad: Una red escalable es aquella que permite su extensión para que nuevos usuarios que requieran acceder a la conexión sin que el
+                       rendimiento del servicio se vea afectado. Por ejemplo cuando varias personas quieren acceder a ver un partido de fútbol online,
+                       el número de espectadores va aumentando y se debe poder seguir teniendo una buena calidad.
+	Calidad de servicio: Una red con calidad de servicio nos permite poder vivir una experiencia en la red como si estuvieramos realizando nuestras
+                             actividades de manera personal, como es el caso de las videollamadas.
+	Seguridad: Una red nos provee de multiples actividades que nos facilitan a los usuarios la realización de actividades, tales como transacciones
+                   bancarias, por lo cual es indispensable contar con una seguridad optima para que la acción sea realizada satisfactoriamente, no obstante
+                   las falencias que existan en cuanto a esta característica se encuentran bajo constante estudio.
+
 8. Investigar qué son las redes orientadas y no orientadas a la conexión.
 	R/ En las redes orientadas a la conexion hace referencia a una red informatica que utiliza en protocolo de comunicacion entre
 	2 dispositivos antes de que se inicie a transmitir archivos, En esta red los dispositivos primero se conectan y luego hacen el envio o recepcion de datos
@@ -84,9 +99,4 @@ CAPITULO 2                          |
 	R/ La principla diferencia es el tamaño de la red, Interwork hace referencia a una red especifica mientras que internet es una red mas global
 	interwork se puede describir como una red formada por 2 o mas redes interconectadas e internet como se menciono anteriormente es una red global
 	la cual se comunica haciendo uso del protocolo TCP/IP al ser global permite que puedea haber comunicacion entre diferentes dispositivos del mundo 
-	
-5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
-	R/ esto se debe a que los protocolos son estandares por lo que no depende de que tecnologia se use
-	se puede decir que es la tecnologia la que debe adaptarse a los estandares del protocolo
-
 	
