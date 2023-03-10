@@ -14,6 +14,22 @@
 	- Consulta de catálogo Bibliotecario.
 	- Videollamadas para sesiones de estudio.
 
+3. Dar ejemplos de herramientas de comunicación que utiliza o ha utilizado
+	R/   
+	- Whatsapp
+	- Messenger
+	- Gmail
+	- Google Chat
+	- Instagram
+	- Telegram
+	- Discord
+	- Skype
+	- Snapchat
+	- LinkedIn
+	- Google Meet
+	- Zoom
+	- Microsoft Teams
+
 4. Describir los factores que afectan la calidad de las comunicaciones.
 	R/ existen factores externos e internos que pueden afectar la calida de la comunicacion
 	los factores externos que afectan la calidad de la comunicacion se les relaciona con la complejidad que tenga la red y la cantidad de dispositivos por los que el mensaje debera
