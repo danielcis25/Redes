@@ -1,0 +1,10 @@
+------------------------------------
+CAPITULO 3                          |
+------------------------------------
+
+2. Dentro de la capa de Aplicación, existen dos formas de procesos o programas de software que proporcionan acceso a la red: aplicaciones y servicios. Describir su
+respectiva función y/o propósito.
+  R/
+	APLICACIONES: Son aquellos programas de software a través de los cuales las personas se comunican mediante la red,
+                      cabe resaltar que estas cuentan con una interfaz para la interacción entre la gente y la aplicación.
+	SERVICIOS: Son aquellos programas que realizan la comunicación con la red y además preparan los datos que van a ser enviados.
