@@ -84,6 +84,15 @@
 	cada paquete de datos es enviado individualmente por la red lo que implica que puedan llegar en desorden al destino,ademas de que en esta red no existe la garantia de que llegue el mensaje completo
 	un ejemplo de esta red es el protocolo UDP
 	
+9. Describa que es la calidad del servicio y que se necesita para mantener una buena calidad de servicio para las aplicaciones que lo requieren.
+	R/
+	Es la capacidad de brindar un nivel idóneo de servicio a los usuarios y a las aplicaciones que usan, donde se ven involucrados
+	aspectos como por ejemplo el ancho de banda, la seguridad.
+	Para mantener una buena calidad del servicio es indispensable contar con una buena conexión a internet la cual va a
+        depender en gran parte del ancho de banda a la cual se tenga acceso, y de esta forma el envío de los mensajes necesarios
+	para establecer la conexión de la red va a ser de una excelente calidad, proporcionando a los usuarios una experiencia
+	muy satisfactoria.
+	
 10. ¿Por qué importa la calidad del servicio en una red de datos?
 	R/ se debe a que ahora con la transmicion de voz y video requieren una calida mayor, la calidad debe ser consistente y el envio ininterrumpido
 	ademas de que las redes tradicionales esta diseñadas para admitir un unico tipo de transmision, por lo que elevaria tambien el nivel de aceptacion de calidad
