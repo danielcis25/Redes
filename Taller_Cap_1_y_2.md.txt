@@ -75,4 +75,13 @@
 	la calidad del servicio garantizara que las prioridades conincidad con el tipo de comunicacion y la respectiva importancia, ademas de que una buena calidad del servicio 
 	daria una mejor experiencia al usuario final.
 
+
+------------------------------------
+CAPITULO 2                          |
+------------------------------------
+
+3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
+	R/ La principla diferencia es el tamaño de la red, Interwork hace referencia a una red especifica mientras que internet es una red mas global
+	interwork se puede describir como una red formada por 2 o mas redes interconectadas e internet como se menciono anteriormente es una red global
+	la cual se comunica haciendo uso del protocolo TCP/IP al ser global permite que puedea haber comunicacion entre diferentes dispositivos del mundo 
 	
