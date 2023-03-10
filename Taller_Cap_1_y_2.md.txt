@@ -69,3 +69,10 @@
 	cada paquete de datos es enviado individualmente por la red lo que implica que puedan llegar en desorden al destino,ademas de que en esta red no existe la garantia de que llegue el mensaje completo
 	un ejemplo de esta red es el protocolo UDP
 	
+10. ¿Por qué importa la calidad del servicio en una red de datos?
+	R/ se debe a que ahora con la transmicion de voz y video requieren una calida mayor, la calidad debe ser consistente y el envio ininterrumpido
+	ademas de que las redes tradicionales esta diseñadas para admitir un unico tipo de transmision, por lo que elevaria tambien el nivel de aceptacion de calidad
+	la calidad del servicio garantizara que las prioridades conincidad con el tipo de comunicacion y la respectiva importancia, ademas de que una buena calidad del servicio 
+	daria una mejor experiencia al usuario final.
+
+	
