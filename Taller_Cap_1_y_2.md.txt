@@ -100,3 +100,11 @@ CAPITULO 2                          |
 	interwork se puede describir como una red formada por 2 o mas redes interconectadas e internet como se menciono anteriormente es una red global
 	la cual se comunica haciendo uso del protocolo TCP/IP al ser global permite que puedea haber comunicacion entre diferentes dispositivos del mundo 
 	
+7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento
+ de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+	R/se puede decir que los protocolos son un conjunto de reglas y estandares para la comunicacion entre los dispositivos de un sistema en red
+	los protocolos permiten establecer una estructura comun para recibir y enviar datos o archivos, lo que permite una correct comunicacion entre los dispositivos
+	
+	La tecnica de encapsulamiento de datos es un procesos donde se agrega informacion(cabecera y pie de pagina)a los datos originales
+	de la capa superior antes de ser enviados a la capa inferior.En cada capa del modelo TCP/IP los datos se encapsulan en el protocolo de unidad de datos conocido como PDU
+	el encapsulamiento se utiliza para entregar y gestionar los datos en la red
