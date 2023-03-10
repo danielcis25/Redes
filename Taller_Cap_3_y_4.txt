@@ -40,6 +40,10 @@ La segmentación de datos: pues los datos deben ser preparados para ser enviados
 Reensamble de segmentos: dado a que la información pudo haber sido segmentada, la capa de transporte describe cómo se va a utilizar la información de los encabezados de dicha capa para poder hacer una reconstrucción o reensamble de los datos, y después ser enviados correctamente a la capa de aplicación
 Identificación de las aplicaciones: para transferir adecuadamente los stream de datos a la aplicación correspondiente o adecuada, la capa de transporte se encargará de identificar el destino ,esto lo hará asignando un identificador a la aplicación, lo que en el protocolo TCP/IP se le conoce como número de puerto, dicho número de puerto es utilizado en el encabezado de la capa de transporte lo que permite identificar cual es la aplicación asociada cada sección de datos. Y es que la capa de transporte es la que enlaza la capa de aplicación con las capas inferiores
 
+2. ¿Por qué es importante la segmentación?
+La segmentación es importante debido a que facilita el transporte de datos por parte de las capas de red inferiores. Además de que la mayoría de redes tiene una limitación de la cantidad de datos que pueden  ser incluidos en una unidad de datos del protocolo(PDU)Por lo que la capa de transporte lo que hace es dividir los datos en segmentos  más pequeños al inicial, para poder ser enviados en la red.  Y ya en el destino, la capa de transporte se encargará también de reensamblar estos datos 
+
+
 
 
 
