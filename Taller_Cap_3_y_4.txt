@@ -43,6 +43,12 @@ Identificación de las aplicaciones: para transferir adecuadamente los stream de
 2. ¿Por qué es importante la segmentación?
 La segmentación es importante debido a que facilita el transporte de datos por parte de las capas de red inferiores. Además de que la mayoría de redes tiene una limitación de la cantidad de datos que pueden  ser incluidos en una unidad de datos del protocolo(PDU)Por lo que la capa de transporte lo que hace es dividir los datos en segmentos  más pequeños al inicial, para poder ser enviados en la red.  Y ya en el destino, la capa de transporte se encargará también de reensamblar estos datos 
 
+3. Describir a través de un cuadro de ideas, las funciones y diferencias de dos protocolos TCP/IP de la capa de transporte: TCP y UDP, además Identificar cuándo es apropiado usar TCP o UDP y proveer ejemplos de aplicaciones que usan cada protocolo.
+ 	*imagen en pdf
+	El protocolo UDP es ideal utilizarlo en streaming de video, llamadas, videollamada,  pues en esto se necesita una conexión rápida y no influye en gran magnitud la pérdida de cierta información, se prioriza la rapidez antes que la confiabilidad(ejemplo: en una videollamada si se pierde alguna leve información simplemente el emisor la puede repetir(retransmitir) y no es tan relevante una leve pérdida de los datos)
+El protocolo TCP es ideal en la transferencia de archivo o envíos de e-mail pues para esto es de gran importancia que la información llegue completa y en el orden correcto, se necesita de un protocolo confiable, en estos ejemplos se prioriza que la información llegue bien antes que la velocidad de envío (ejemplo: si envio un archivo o correo necesito que la información llegue tal cual la envió pues puede contener detalles importantes que si se pierden alteran totalmente la información)
+
+
 
 
 
