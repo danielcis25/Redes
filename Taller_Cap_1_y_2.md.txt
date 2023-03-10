@@ -107,6 +107,14 @@ CAPITULO 1                          |
 ------------------------------------
 CAPITULO 2                          |
 ------------------------------------
+1. Describir la estructura de una red, incluidos los dispositivos, medios y  servicios necesarios para lograr comunicaciones exitosas.
+	R/la estructura de una red se compone de: 
+	Dispositivos: que son los elementos físicos que se utilizan para conectarse a la red y permitir la comunicación entre ellos
+	Medios: canal por donde se transmite la información o datos (estos son físicos)
+	Servicios: son funciones que ofrece la red para lograr una comunicación exitosa
+	direcciones: que actúan como los identificadores de los dispositivos permitiéndoles tener conexión a la red
+	protocolos: son un conjunto de reglas y estándares para la comunicación entre los dispositivos de un sistema en red
+
 
 2. Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
 	R/
