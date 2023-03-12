@@ -20,6 +20,14 @@ respectiva función y/o propósito.
 su relación con el término Daemon.
 	*IMAGEN ADJUNTA EN PDF
 	El daemon es un servicio del servidor que escucha la solicitud o petición del cliente, e intercambia los mensajes adecuados con el cliente,según lo requerido por 	el protocolo, y da respuesta a lo solicitado por el cliente, generalmente este servicio se ejecuta en segundo plano
+
+4. Describir la diferencia entre los términos: redes punto a punto y aplicaciones
+punto a punto (P2P).
+	Cuando se habla de una red punto a punto se refiere a aquella red conformada por computadoras en la cual cada computadora puede tener el rol tanto
+	de cliente como de servidor, de este modo se pueden compartir recursos sin la necesidad de que exista un servidor dedicado; cuando se habla de aplicación
+	punto a punto se refiere a aquellas aplicaciones que permten compartir recursos directamente entre sí, es decir dentro de la misma comunicación. Red punto
+	a punto se relaciona con la infraestructura de red mientras, que aplicación punto a punto se refiere aquellas aplicaciones que hace uso de esa infraestrutura
+	de red.
 	
 5. Explicar, con sus palabras, los procesos y protocolos de envío y recepción de un e- mail.
 
