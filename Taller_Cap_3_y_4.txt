@@ -113,6 +113,12 @@ La segmentación es importante debido a que facilita el transporte de datos por 
 	El protocolo UDP es ideal utilizarlo en streaming de video, llamadas, videollamada,  pues en esto se necesita una conexión rápida y no influye en gran magnitud la pérdida de cierta información, se prioriza la rapidez antes que la confiabilidad(ejemplo: en una videollamada si se pierde alguna leve información simplemente el emisor la puede repetir(retransmitir) y no es tan relevante una leve pérdida de los datos)
 El protocolo TCP es ideal en la transferencia de archivo o envíos de e-mail pues para esto es de gran importancia que la información llegue completa y en el orden correcto, se necesita de un protocolo confiable, en estos ejemplos se prioriza que la información llegue bien antes que la velocidad de envío (ejemplo: si envio un archivo o correo necesito que la información llegue tal cual la envió pues puede contener detalles importantes que si se pierden alteran totalmente la información)
 
+4. Explicar como funciona y para que se utiliza el control de congestión de TCP.
+	R/ Su objetivo es lograr y garantizar que los datos se envíen de manera eficiente y confiable a través de la red, evitando de esta manera la
+	   disminución en la velocidad de transmisión y además la pérdida de paquetes de datos, debido a que es esencial y muy importante mantener el óptimo
+	   rendimiento de la red; este mecanismo ajusta la tasa de envío de datos conforme las condiciones que posea la red, poniendo en uso métodos como la ventana
+	   deslizante y el control de congestión de red de extremo a extremo.
+
 7. Explicar, por medio de un dibujo, el establecimiento y finalización de una
 conexión TCP (intercambio de señales de tres vías).
 *imágen en pdf
