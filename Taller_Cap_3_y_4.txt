@@ -63,6 +63,37 @@ Telnet).
 7. Investigar y explicar la diferencia entre Telnet y SSH
 Dado que tanto Telnet como SSH son unos protocolos de red que son usados para acceder a servidores de dispositivos remotos. La diferencia entre estos 2 protocolos primeramente es que a diferencia de SSH, Telnet es un protocolo antiguo, además Telnet es considerado un protocolo inseguro, pues aunque proporciona autenticación de usuario no admite el transporte de datos encriptados, durante la sesión, con Telnet los datos se transportan por la red como texto(sin formato) por lo que puede ser interceptados y entendidos fácilmente  por alguien que esté escuchando en la misma red. Mientras que SSH es un protocolo relativamente nuevo o moderno y si cuenta con cifrado de extremo a extremo y proporciona mayor autenticación de usuario que Telnet, lo que hace que sea un protocolo más seguro, se puede ver como que SSH es una version mejorada de Telnet.
 
+8. Utilizando la utilidad nslookup obtener manualmente la dirección IP de al menos
+tres (3) sitios web que usted frecuente.
+
+Respuesta no autoritativa:
+Nombre:  youtube-ui.l.google.com
+Addresses:  2800:3f0:4005:409::200e
+          2800:3f0:4005:40a::200e
+          2800:3f0:4005:40b::200e
+          2800:3f0:4005:40c::200e
+          142.250.78.78
+          142.250.78.110
+          142.250.78.142
+          142.250.78.174
+          172.217.28.110
+          172.217.30.206
+          172.217.172.14
+          142.250.78.14
+          142.250.78.46
+Aliases:  www.youtube.com
+
+Respuesta no autoritativa:
+Nombre:  github.com
+Address:  140.82.114.3
+Aliases:  www.github.com
+
+Respuesta no autoritativa:
+Nombre:  univirtual.unicauca.edu.co
+Addresses:  2801:12:7000:3f4::43
+          45.231.184.220
+Aliases:  www.univirtual.unicauca.edu.co
+
 
 --------------------------
 Capitulo 4                |
