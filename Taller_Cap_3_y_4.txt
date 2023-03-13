@@ -119,6 +119,21 @@ El protocolo TCP es ideal en la transferencia de archivo o envíos de e-mail pue
 	   rendimiento de la red; este mecanismo ajusta la tasa de envío de datos conforme las condiciones que posea la red, poniendo en uso métodos como la ventana
 	   deslizante y el control de congestión de red de extremo a extremo.
 
+5. Explicar las funciones clave de la capa de Transporte incluyendo confiabilidad,
+direccionamiento de puerto y segmentación.
+	R/
+	  CONFIABILIDAD: Esta capa permite o garantiza que los datos sean enviados de manera confiable y eficientemente a través de la red, además de verificar que
+			 el orden de entrega sea el correcto. Se realiza una correcta detección de errores en los datos transmitidos, además de su corrección
+			 oportuna y de ser necesario se realiza una retransimisón de los datos. Es importante mencionar que se encarga de asegurarse que la red no
+			 esté congestionada, de darse el caso la velocidad de envío de datos es reducida de este modo se garantiza que la red no se bloquee.
+	  DIRECCIONAMIENTO DE PUERTO: La capa de Transporte utiliza los números de puerto con el objetivo de indentificar las aplicaciones que son específica en un
+				      determinado dispositivo final. Cada una de estas aplicaciones tiene asignado un número de puerto único el cual se utiliza para
+				      poder enrutar los dtos hacía el proceso de la aplicación correcta en el mencionado dispositivo final.
+	  SEGMENTACIÓN: La capa de Transporte realiza una división de los datos en segmentos más pequeños para realizar su transmisión a través de la red, esto se
+			hace necesario debido a que la capa de Red no permite le manejo de grandes cantidades de datos en un solo paquete o paquete individual, de
+			este modo los segmentos son enumerados y enviados a través de la red, posteriormente se vuelven a unir en orden correcto en el dispositivo
+			final(destino).
+
 7. Explicar, por medio de un dibujo, el establecimiento y finalización de una
 conexión TCP (intercambio de señales de tres vías).
 *imágen en pdf
