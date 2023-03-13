@@ -134,6 +134,20 @@ direccionamiento de puerto y segmentación.
 			este modo los segmentos son enumerados y enviados a través de la red, posteriormente se vuelven a unir en orden correcto en el dispositivo
 			final(destino).
 
+6. ¿Cuáles son los diferentes tipos de número de puerto?
+	R/
+	Puertos bien conocidos(Números del 0 al 1 023): Algunos ejemplos de servicios que usan números de puerto bien conocidos son el protocolo HTTP (puerto 80),
+				el protocolo FTP (puerto 21), el protocolo SMTP (puerto 25). Estos son números de puerto reservado para los servicios que son
+				comúnes y que ya están estandarizados.
+	Puertos registrados(Números 1024 al 49151): Se asignan a procesos o aplicaciones del usuario, entendiendo que estos procesos son aquellas aplicaciones
+						    individuales que el usuario a elegido instalar en vez de las aplicaciones comunes que normalmente tendrían
+						    asignado un purto ben conocido, estos puertos en el caso de no ser requeridos para algún recurso del servidor
+						    pueden ser empleados si un usuario los elige de manera dinámica como un puerto de origen.
+	Puetos dinámicos o privados (Números del 49 152 al 65 535): También llamados puertos efímeros, se asignan comunmente de una forma dinámica a aquellas
+								    aplicaciones del cliente al momento de iniciar una conexión. Que un cliente requiera
+								    conectarse a un servicio utilizando este tipo de puerto no es muy frecuente, solamente sucede en
+								    el caso de determinados programas que comparten archivos punto a punto.
+
 7. Explicar, por medio de un dibujo, el establecimiento y finalización de una
 conexión TCP (intercambio de señales de tres vías).
 *imágen en pdf
