@@ -113,6 +113,19 @@ La segmentación es importante debido a que facilita el transporte de datos por 
 	El protocolo UDP es ideal utilizarlo en streaming de video, llamadas, videollamada,  pues en esto se necesita una conexión rápida y no influye en gran magnitud la pérdida de cierta información, se prioriza la rapidez antes que la confiabilidad(ejemplo: en una videollamada si se pierde alguna leve información simplemente el emisor la puede repetir(retransmitir) y no es tan relevante una leve pérdida de los datos)
 El protocolo TCP es ideal en la transferencia de archivo o envíos de e-mail pues para esto es de gran importancia que la información llegue completa y en el orden correcto, se necesita de un protocolo confiable, en estos ejemplos se prioriza que la información llegue bien antes que la velocidad de envío (ejemplo: si envio un archivo o correo necesito que la información llegue tal cual la envió pues puede contener detalles importantes que si se pierden alteran totalmente la información)
 
+7. Explicar, por medio de un dibujo, el establecimiento y finalización de una
+conexión TCP (intercambio de señales de tres vías).
+*imágen en pdf
+
+Se representa la descripción del proceso(intercambio de señales de tres vías) de establecimiento y finalización de una conexión TCP: Iniciando con el establecimiento
+el host A hace el envío de un paquete SYN con destino del host B haciendo la solicitud para establecer la conexión TCP; luego el host B responde con un paquete
+SYN-ACK, y de esta manera confirma la recepción del paquete SYN y posteriormente se envía un número de secuencia propio; después el host A realiza una respuesta con
+un paquete ACK para realizar la confirmación del paquete SYN-ACK y enviando también su propio número de secuencia; obteniendo como resultado que la conexión TCP ha
+sido establecida y de esta manera ambos host pueden realizar el intercambio de datos. Para la finalización el host A envía un paquete FIN al host B, de esta manera
+se solicita la terminación de la conexión TCP; después el host B retorna una respuesta con un paquete ACK, confirmando la recepción del paquete FIN; luego el host
+B envía un paquete FIN al host A realizando también la solicitud de terminación de la conexión TCP; acto seguido el host A responde con un paquete ACK y de esta
+manera confirma la recepción del paquete FIN; con esto la conexión TCP ha sido finalizada con éxito y ambos hosts han cerrado la conexión de manera ordenada.
+
 
 
 
